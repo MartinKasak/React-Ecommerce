@@ -47,3 +47,50 @@ export const categories = [
     },
 
 ];
+
+
+
+export const popularProducts = [
+    {
+        id:1, 
+        img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F0953c972-2dce-44f8-a7c4-f087ad5e28d2_1.d7a6405705c9bf3b8ed44033f6c8ad46.jpeg&f=1&nofb=1&ipt=7cf98a33096fe687acf1dea1b4ddf79b512bb0d1f0495bf327b9c316472246a7&ipo=images",
+
+    },
+    {
+        id:2, 
+        img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.furnituredealer.net%2Fimg%2Fproducts%2Friverside_furniture%2Fcolor%2Fperspectives-1831789821_28030-b1.jpg&f=1&nofb=1&ipt=81a003e9bfec736c3f9346ea3a91b903002539284668a29140f2489f3e54fc08&ipo=images",
+
+    },
+    {
+        id:3, 
+        img:"https://secure.img1-cg.wfcdn.com/im/16623380/resize-h800-w800%5Ecompr-r85/2044/204425037/Bump+6+-+Person+Outdoor+Seating+Group+with+Cushions.jpg",
+
+    },
+    {
+        id:4, 
+        img:"https://secure.img1-cg.wfcdn.com/im/99081322/resize-h800-w800%5Ecompr-r85/2086/208614617/Bryner+TV+Stand+For+TVs+Up+To+70%22.jpg",
+
+    },
+    {
+        id:5, 
+        img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.furnituredealer.net%2Fimg%2Fproducts%2Fklaussner%2Fcolor%2Fshelby%2520d86200_d86200%2520chase-amigo%2520dove-b1.jpg&f=1&nofb=1&ipt=549cd05ce846be339f662d1ee431091840f3832a74d6c0a51afa900483f434df&ipo=images",
+
+    },
+    {
+        id:6, 
+        img:"https://secure.img1-cg.wfcdn.com/im/28887085/resize-h800-w800%5Ecompr-r85/6121/61214947/Gunnar+3+-+Piece+Upholstered+Sectional.jpg",
+
+    },
+    {
+        id:7, 
+        img:"https://secure.img1-cg.wfcdn.com/im/65002925/resize-h500-w500%5Ecompr-r85/2390/239010430/default_name.jpg",
+
+    },
+    {
+        id:8, 
+        img:"https://secure.img1-cg.wfcdn.com/im/09148740/resize-h500-w500%5Ecompr-r85/2129/212934266/default_name.jpg",
+
+    },
+    
+
+];
