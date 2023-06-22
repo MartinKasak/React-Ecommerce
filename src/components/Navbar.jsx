@@ -20,15 +20,15 @@ const Left = styled.div`
     align-items:center;
 `
 const Language = styled.span`
-    font-size:14px;
+    font-size:16px;
     cursor: pointer;
 `
 
 const SearchContainer = styled.div`
-    border: 0.5px solid lightgray;
+    border: 0.5px solid gray;
     display: flex;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 30px;
     padding: 5px;
 `
 
@@ -53,9 +53,9 @@ const Right = styled.div`
 `
 
 const MenuItem = styled.div`
-    font-size:14px;
+    font-size:20px;
     cursor:pointer;
-    margin-left:25px;
+    margin-left:55px;
 `
 
 const Navbar = () => {
@@ -63,7 +63,7 @@ const Navbar = () => {
     <Container>
         <Wrapper>
             <Left>
-                <Language>EN</Language>
+                <Language style={{fontSize:20}}>EN</Language>
                 <SearchContainer>
                     <Input/>
                     <Search style={{color:"gray", fontSize:16}}/>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 <MenuItem>REGISTER</MenuItem>
                 <MenuItem>SIGN IN</MenuItem>
                 <MenuItem>
-                <Badge badgeContent={4} color="primary">
+                <Badge badgeContent={7} color="primary">
                     <ShoppingCartOutlined />
                 </Badge>
                 </MenuItem>

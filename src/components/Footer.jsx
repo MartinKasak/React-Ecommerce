@@ -4,7 +4,6 @@ import styled from "styled-components"
 const Container = styled.div`
     display:flex;
 
-
 `
 const Left = styled.div`
     flex:1;
@@ -48,6 +47,7 @@ const Center = styled.div`
 
 const Title = styled.h3`
     margin-bottom:30px;
+    margin-top:10px;
 `
 
 const List = styled.ul`
@@ -66,12 +66,11 @@ const ListItem = styled.li`
 
 const Right = styled.div`
     flex:1;
-    padding:10px;
+    padding:20px;
 `
 
 const ContactItem = styled.div`
-    margin-bottom:20px;
-    
+    margin-bottom:10px;
     display:flex;
     align-items:center;
 `
