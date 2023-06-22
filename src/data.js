@@ -7,7 +7,7 @@ export const sliderItems = [
         bg:"f5fafd",
     },
     {
-        id:2, 
+         id:2, 
         img:"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flifestylefrisco.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F02%2FIBB-Gray-and-golden.jpg&f=1&nofb=1&ipt=e55f2a98b0185d58b2279ced7d4bb275e1f6c09f1f2151ab0c590c583491fb15&ipo=images",
         title:"Sügisene Pakkumine",
         desc:"Kõik tooted allahinnatud kuni 30%",
@@ -17,6 +17,31 @@ export const sliderItems = [
         id:3, 
         img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2Ftuyk0VQsxlxFWmd4upzBAhD2Rmk%3D%2F0x0%3A940x627%2F1200x0%2Ffilters%3Afocal(0x0%3A940x627)%3Ano_upscale()%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F6812573%2Fonline-store-home-decor-home-goods-a-plus-r.0.jpg&f=1&nofb=1&ipt=80f9de93a7e349406159fad049776315d2153bd98098104575c18a64e0d3928e&ipo=images",
         title:"Populaarsed Tooted",
+        desc:"Kõik tooted allahinnatud kuni 30%",
+        bg:"f7fadd",
+    },
+
+];
+
+export const categories = [
+    {
+        id:1, 
+        img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffarm1.staticflickr.com%2F448%2F19873132083_e4228b87ec_o.jpg&f=1&nofb=1&ipt=d7bde532bc739e1a9ff23b99ac1b59279bccdefa50db3963253cb5887b91a20f&ipo=images",
+        title:"ELUTOAMÖÖBEL",
+        desc:"Kõik tooted allahinnatud kuni 30%",
+        bg:"f5fafd",
+    },
+    {
+        id:2, 
+        img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimperialcustomcabinets.com%2Fwp-content%2Fuploads%2Fgallery%2Fkitchens%2FKitchen-Cabinets-Contemporary-Maple-Quartersawn.jpg&f=1&nofb=1&ipt=5834fa591c937c9d9ce72baf161c16d6233826be336fa62a2a47a87575e93c09&ipo=images",
+        title:"KÖÖGIMÖÖBEL",
+        desc:"Kõik tooted allahinnatud kuni 30%",
+        bg:"fcf2fd",
+    },
+    {
+        id:3, 
+        img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.archiexpo.com%2Fimages_ae%2Fphoto-g%2F7743-15311179.jpg&f=1&nofb=1&ipt=e3182741c58564cd71275a843ad47454daf8be563a79e339debdcd1d304d793c&ipo=images",
+        title:"LASTETOA MÖÖBEL",
         desc:"Kõik tooted allahinnatud kuni 30%",
         bg:"f7fadd",
     },
