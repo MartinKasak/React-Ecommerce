@@ -9,6 +9,7 @@ const Container = styled.div`
     ),
     url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FxsDPGTYC0N31csFo7hUYtqZx7dw%3D%2F2882x1921%2Ffilters%3Afill(auto%2C1)%2Fopps-assembly-ikea-furniture-via-smallspaces.about.com-57c5db6b5f9b5855e5e34635.jpg&f=1&nofb=1&ipt=2f6215ce4be9e008f15c9b707fe297952598c1463e9dd4e00cd5ddc013a54ca0&ipo=images")
     center;
+    background-size:cover;
     display:flex;
     align-items:center;
     justify-content: center;
