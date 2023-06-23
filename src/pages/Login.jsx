@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { mobile } from "../responsive";
 
 const Container = styled.div`
     width:100vw;   
@@ -19,10 +20,14 @@ const Wrapper = styled.div`
     width:40%;
     padding:20px;
     background-color:white;
+    ${mobile({width:"80%"})};
+    
 `	
 const Title = styled.h1`
     font-size:44px;
     font-weight:500;
+    ${mobile({"text-align":"center"})};
+
     
 `
 const Form = styled.form`
@@ -51,6 +56,8 @@ const Link = styled.a`
     font-size:18px;
     text-decoration:underline;
     cursor:pointer;
+    ${mobile({"text-align":"center"})};
+
 `
 
 const Login = () => {

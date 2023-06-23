@@ -1,8 +1,10 @@
 import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from "@mui/icons-material"
 import styled from "styled-components"
+import { mobile } from "../responsive"
 
 const Container = styled.div`
     display:flex;
+    ${mobile({flexDirection:"column"})};
 
 `
 const Left = styled.div`
@@ -11,6 +13,8 @@ const Left = styled.div`
     flex-direction:column;
     padding:20px;
     margin-left:10%;
+    ${mobile({padding:"5px", "margin-left":"5%",'margin-top':"10px",'margin-bottom':"10px" })};
+
 `
 
 const Logo = styled.h1 `
@@ -19,6 +23,7 @@ const Logo = styled.h1 `
 
 const Desc = styled.p `
     margin:20px 0px;
+    
 `
 
 const SocialContainer = styled.div `
@@ -42,12 +47,15 @@ const SocialIcon = styled.div `
 const Center = styled.div`
     flex:1;
     padding:20px;
+    ${mobile({display:"none"})};
     
 `
 
 const Title = styled.h3`
     margin-bottom:30px;
     margin-top:10px;
+    ${mobile({"margin-left":"2%"})};
+    
 `
 
 const List = styled.ul`
@@ -56,27 +64,32 @@ const List = styled.ul`
     list-style:none;
     display:flex;
     flex-wrap:wrap;
+    
 `
 
 const ListItem = styled.li`
     width:50%;
     margin-bottom:20px;
+    
 
 `
 
 const Right = styled.div`
     flex:1;
     padding:20px;
+    ${mobile({backgroundColor:"#e6e7e4"})};
 `
 
 const ContactItem = styled.div`
     margin-bottom:10px;
     display:flex;
     align-items:center;
+    ${mobile({"margin-left":"2%"})};
 `
 
 const Payment = styled.img`
     width:10%;
+    ${mobile({"margin-left":"2%"})};
 `
 
 const Footer = () => {

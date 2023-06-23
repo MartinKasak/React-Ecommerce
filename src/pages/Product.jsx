@@ -4,11 +4,14 @@ import Newsletter from "../components/Newsletter"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import { Add, Remove } from "@mui/icons-material"
+import { mobile } from "../responsive"
 
 const Container = styled.div``
 const Wrapper = styled.div`
     padding:50px;
     display:flex;
+    ${mobile({padding:"10px", flexDirection:"column"})};
+
 `
 const ImageContainer = styled.div`
     flex:1;
@@ -18,11 +21,15 @@ const Image = styled.img`
     width:100%;
     height:90vh;
     object-fit:cover;
+    ${mobile({height:"40vh"})};
+
 
 `
 const InfoContainer = styled.div`
     flex:1;
     padding:0px 75px;
+    ${mobile({padding:"10px"})};
+
 `
 const Title = styled.h1`
     font-weight:200;
@@ -35,6 +42,7 @@ const Desc = styled.p`
 const Price = styled.span`
     font-weight:100;
     font-size:40px;
+    
 `
 
 const FilterContainer = styled.div`
@@ -42,10 +50,14 @@ const FilterContainer = styled.div`
     margin:20px 0px;
     display:flex;
     justify-content:space-between;
+    ${mobile({width:"100%"})};
+
 `
 const Filter = styled.div`
     display:flex;
     align-items:center;
+    ${mobile({flexDirection:"column"})};
+
 
 `
 const FilterTitle = styled.span`
@@ -59,26 +71,38 @@ const FilterColor = styled.div`
     background-color:${props=>props.color};   
     margin:0px 10px;
     cursor:pointer; 
+    ${mobile({padding:"10px", flexDirection:"column"})};
+
 
 `
 
 const FilterSize = styled.select`
     margin-left:15px;
     padding:10px;    
+    
 `
-const FilterSizeOption = styled.option``
+const FilterSizeOption = styled.option`
+`
 
 const AddContainer = styled.div`
     width:70%;
     display:flex;
     align-items:center;
     justify-content:space-between;
+    ${mobile({width:"100%"})};
+    ${mobile({padding:"0px", flexDirection:"column"})};
+
+
+
+
 `
 
 const AmountContainer = styled.div`
     display:flex;
     align-items:center;
     font-weight:1000; 
+    
+    
 `
 const Amount = styled.span`
     width:40px;
@@ -89,6 +113,7 @@ const Amount = styled.span`
     align-items:center;
     justify-content:center;
     margin:0px 5px;
+    
 
 `
 const Button = styled.button`
@@ -101,6 +126,7 @@ const Button = styled.button`
     &:hover{
         background-color:green;
     }
+    ${mobile({width:"100%"})};
 `
 
 

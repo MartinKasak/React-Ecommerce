@@ -1,5 +1,6 @@
 import { FavoriteBorder, Search, ShoppingCart } from "@mui/icons-material"
 import styled from "styled-components"
+import { mobile } from "../responsive"
 
 const Info=styled.div`
     opacity:0;
@@ -45,6 +46,8 @@ const Circle=styled.div`
 const Image=styled.img`
     height:85%;
     z-index:2;
+    ${mobile({"margin-right":'30px'})};
+    
 
 `;
 
@@ -63,6 +66,7 @@ const Icon=styled.div`
         transform:scale(1.1);
 
     }
+    
 
 `   
 
