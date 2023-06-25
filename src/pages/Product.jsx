@@ -92,9 +92,6 @@ const AddContainer = styled.div`
     ${mobile({width:"100%"})};
     ${mobile({padding:"0px", flexDirection:"column"})};
 
-
-
-
 `
 
 const AmountContainer = styled.div`
